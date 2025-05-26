@@ -61,6 +61,8 @@ dependencies {
     implementation(libs.androidx.navigation3.ui)
     implementation(libs.androidx.lifecycle.viewmodel.navigation3)
     implementation(libs.androidx.material.icons.extended)
+    implementation(libs.androidx.foundation.layout.android)
+    implementation(platform(libs.compose.bom))
 
 
     testImplementation(libs.junit)
@@ -68,6 +70,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
+    androidTestImplementation(platform(libs.compose.bom))
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }

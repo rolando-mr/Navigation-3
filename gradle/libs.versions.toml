@@ -13,7 +13,7 @@
 # limitations under the License.
 
 [versions]
-agp = "8.9.2"
+agp = "8.9.3"
 kotlin = "2.1.21"
 kotlinSerialization = "2.1.21"
 coreKtx = "1.16.0"
@@ -26,11 +26,13 @@ lifecycleRuntimeKtx = "2.9.0"
 lifecycleViewmodel = "1.0.0-SNAPSHOT"
 activityCompose = "1.10.1"
 composeBom = "2025.05.01"
-navigation3 = "1.0.0-alpha01"
+navigation3 = "1.0.0-alpha02"
 material3 = "1.4.0-alpha15"
 nav3Material = "1.0.0-SNAPSHOT"
 ksp = "2.1.20-2.0.0"
 hilt = "2.56.2"
+foundationLayoutAndroid = "1.9.0-alpha03"
+composeBomVersion = "2024.09.00"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -60,6 +62,8 @@ kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serializa
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationCore" }
 androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
 androidx-material3-navigation3 = { group = "androidx.compose.material3.adaptive", name = "adaptive-navigation3", version.ref = "nav3Material" }
+androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBomVersion" }
 
 
 [plugins]
